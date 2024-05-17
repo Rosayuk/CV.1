@@ -1,5 +1,8 @@
-body {
-   
+.body{
+    ody {
+        background-color: #f1f1f1;
+        font-family: sans-serif;
+    }
 }
 
 .container {
@@ -10,7 +13,12 @@ body {
 
 
 .column{
-    display: inline-block;
+ float: left;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
 }
 
 
@@ -25,12 +33,11 @@ body {
     /* filter: grayscale(.8); */
 }
 
-.right-column{
-    background-color: greenyellow;
+.right-column {
+    background-color: #fff;
     width: 65%;
-}
-
-
+    margin-left: 16px;}
+    
 .footer{
     background-color: lightblue;
 }
