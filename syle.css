@@ -46,41 +46,29 @@ class.basic-info {
 
 
 
-.name {
-    font-size: 1.8em;
-    margin: 10px 0;
+.basic-info{
+    color: teal;
+    margin-right: 8px;
+    
 }
 
 
 .basic-info i {
-    margin-right: 10px;
+    color: teal;
+    margin-right: 8px;
 }
 
-hr {
-    border: 1px solid #ecf0f1;
-    width: 80%;
-    margin: 20px 0;
+.progress{
+    background-color: white;
+    border-radius: 8px;
 }
 
-.skills h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-}
-
-.skills h2 i {
-    margin-right: 10px;
-}
-
-.skill-item {
-    text-align: left;
-    width: 100%;
-    margin: 10px 0;
-}
-
-.skill-label {
-    margin-bottom: 5px;
+.progress-fill{
+    background-color: teal;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-size: small;
 }
 
 .progress {
