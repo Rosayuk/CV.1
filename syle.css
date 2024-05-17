@@ -1,15 +1,11 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f7f7f7;
-    color: #333;
-    margin: 0;
-    padding: 0;
+   
 }
 
 .container {
-/* bacground-color: red; */
-width: 1400px;
-margin: 0 auto;
+    /* bacground-color: red; */
+    width: 1400px;
+    margin: 0 auto;
 }
 
 
@@ -29,6 +25,11 @@ margin: 0 auto;
     /* filter: grayscale(.8); */
 }
 
+.right-column{
+    background-color: greenyellow;
+    width: 65%;
+}
+
 
 .footer{
     background-color: lightblue;
@@ -45,7 +46,8 @@ margin: 0 auto;
     color: teal;
     margin-right: 8px;
 }
-    .skills{
+
+ .skills{
         margin: 8px;
         color: teal;
     }
@@ -67,8 +69,4 @@ margin: 0 auto;
     color: white;
     font-size: small;
     width: 30%;
-}
-
-.right-colum {
-
 }
