@@ -7,18 +7,32 @@ body {
 }
 
 .container {
-    display: flex;
-    max-width: 1000px;
-    margin: 40px auto;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
+/* bacground-color: red; */
+width: 1400px;
+margin: 0 auto;
 }
 
-.column {
-    padding: 20px;
+
+.left-column {
+    background-color: lightcoral;
+    width: 30%;
 }
+
+.profile-photo{
+    width: 100%;
+    /* border-radius: 50%; */
+    /* filter: grayscale(.8); */
+}
+
+.right-column{
+    background-color: greenyellow;
+    width: 65%;
+}
+
+.footer{
+    background-color: lightblue;
+}
+
 
 class.basic-info {
     width: 35%;
@@ -30,31 +44,13 @@ class.basic-info {
     text-align: center;
 }
 
-class.right-column {
-    width: 65%;
-    padding: 20px;
-}
 
-.profile-photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    border: 5px solid #ecf0f1;
-}
 
 .name {
     font-size: 1.8em;
     margin: 10px 0;
 }
 
-.basic-info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1em;
-    margin: 10px 0;
-}
 
 .basic-info i {
     margin-right: 10px;
@@ -114,12 +110,3 @@ hr {
     border-top: 1px solid #34495e;
 }
 
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
-
-    .left-column, .right-column {
-        width: 100%;
-    }
-}
