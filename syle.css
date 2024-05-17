@@ -13,6 +13,11 @@ margin: 0 auto;
 }
 
 
+.column{
+    display: inline-block;
+}
+
+
 .left-column {
     background-color: lightcoral;
     width: 30%;
@@ -24,38 +29,30 @@ margin: 0 auto;
     /* filter: grayscale(.8); */
 }
 
-.right-column{
-    background-color: greenyellow;
-    width: 65%;
-}
 
 .footer{
     background-color: lightblue;
 }
 
 
-class.basic-info {
-    width: 35%;
-    background-color: #2c3e50;
-    color: #ecf0f1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-
-
 .basic-info{
     color: teal;
     margin-right: 8px;
-    
-}
 
+}
 
 .basic-info i {
     color: teal;
     margin-right: 8px;
+}
+    .skills{
+        margin: 8px;
+        color: teal;
+    }
+
+.skills i {
+    margin-right: 8px;
+    color: teal;
 }
 
 .progress{
@@ -69,32 +66,7 @@ class.basic-info {
     text-align: center;
     color: white;
     font-size: small;
+    width: 30%;
 }
 
-.progress {
-    background-color: #34495e;
-    border-radius: 5px;
-    overflow: hidden;
-    height: 20px;
-}
-
-.progress-fill {
-    background-color: #1abc9c;
-    height: 100%;
-    text-align: right;
-    padding-right: 10px;
-    box-sizing: border-box;
-    color: #ecf0f1;
-    font-weight: bold;
-    border-radius: 5px 0 0 5px;
-}
-
-.footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #2c3e50;
-    color: #ecf0f1;
-    font-size: 0.9em;
-    border-top: 1px solid #34495e;
-}
-
+.right-column {}
