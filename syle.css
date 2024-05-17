@@ -1,7 +1,6 @@
 .body{
     ody {
         background-color: #f1f1f1;
-        font-family: sans-serif;
     }
 }
 
@@ -14,11 +13,6 @@
 
 .column{
  float: left;
-}
-
-div {
-    display: block;
-    unicode-bidi: isolate;
 }
 
 
