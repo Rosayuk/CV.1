@@ -20,7 +20,7 @@ body {
     padding: 20px;
 }
 
-.left-column {
+class.basic-info {
     width: 35%;
     background-color: #2c3e50;
     color: #ecf0f1;
@@ -30,7 +30,7 @@ body {
     text-align: center;
 }
 
-.right-column {
+class.right-column {
     width: 65%;
     padding: 20px;
 }
