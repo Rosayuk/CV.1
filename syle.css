@@ -1,9 +1,21 @@
 .body{
-    ody {
         background-color: #f1f1f1;
         font-family: sans-serif;
     }
-}
+
+   .body {
+        display: block;
+        margin: 8px;
+    }
+
+   .div {
+        display: block;
+        unicode-bidi: isolate;
+    }
+    :root {
+        view-transition-name: root;
+    }
+
 
 .container {
     /* bacground-color: red; */
