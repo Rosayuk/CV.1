@@ -14,6 +14,12 @@ body {
     float: left;
 }
 
+.right-column {
+    background-color: #fff;
+    width: 65%;
+    margin-left: 16px;
+}
+
 .left-column {
     background-color: lightcoral;
     width: 30%;
@@ -25,11 +31,7 @@ body {
     /* filter: grayscale(.8); */
 }
 
-.right-column {
-    background-color: #fff;
-    width: 65%;
-    margin-left: 16px;
-}
+
 
 .footer {
     background-color: lightblue;
