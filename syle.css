@@ -5,68 +5,75 @@ body {
 }
 
 .container {
-    /* background-color: red; */
-    width: 1400px;
+    display: flex;
+    width: 80%;
     margin: 0 auto;
-}
-
-.column {
-    float: left;
-}
-
-.right-column {
     background-color: #fff;
-    width: 65%;
-    margin-left: 16px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .left-column {
     background-color: lightcoral;
-    width: 30%;
+    width: 35%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.right-column {
+    width: 65%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
 }
 
 .profile-photo {
     width: 100%;
-    /* border-radius: 50%; */
-    /* filter: grayscale(.8); */
+    border-radius: 8px;
 }
 
-
-
-.footer {
-    background-color: lightblue;
+.name {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.basic-info {
-    color: teal;
-    margin-right: 8px;
+.basic-info, .skills {
+    margin: 10px 0;
 }
 
-.basic-info i {
-    color: teal;
+.basic-info i, .skills i {
     margin-right: 8px;
 }
 
 .skills {
-    margin: 8px;
-    color: teal;
-}
-
-.skills i {
-    margin-right: 8px;
-    color: teal;
+    margin-top: 20px;
 }
 
 .progress {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    height: 20px;
 }
 
 .progress-fill {
     background-color: teal;
-    border-radius: 8px;
-    text-align: center;
+    height: 100%;
     color: white;
-    font-size: small;
-    width: 30%; /* Upewnij się, że wartość szerokości jest nadpisywana inline */
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
 }
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: lightblue;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
