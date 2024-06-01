@@ -4,7 +4,7 @@ body {
     margin: 8px;
 }
 
-.container {
+container {
     display: flex;
     width: 80%;
     margin: 0 auto;
@@ -14,7 +14,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.left-column {
+left-column {
     background-color: lightcoral;
     width: 35%;
     padding: 20px;
@@ -22,37 +22,37 @@ body {
     color: white;
 }
 
-.right-column {
+right-column {
     width: 65%;
     padding: 20px;
     box-sizing: border-box;
     background-color: #fff;
 }
 
-.profile-photo {
+profile-photo {
     width: 100%;
     border-radius: 8px;
 }
 
-.name {
+name {
     margin-top: 20px;
     font-size: 24px;
     font-weight: bold;
 }
 
-.basic-info, .skills {
+basic-info, .skills {
     margin: 10px 0;
 }
 
-.basic-info i, .skills i {
+basic-info i, .skills i {
     margin-right: 8px;
 }
 
-.skills {
+skills {
     margin-top: 20px;
 }
 
-.progress {
+progress {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 8px;
     margin-bottom: 10px;
@@ -60,7 +60,7 @@ body {
     height: 20px;
 }
 
-.progress-fill {
+progress-fill {
     background-color: teal;
     height: 100%;
     color: white;
@@ -69,7 +69,7 @@ body {
     font-size: 14px;
 }
 
-.footer {
+footer {
     text-align: center;
     padding: 10px;
     background-color: lightblue;
