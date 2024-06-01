@@ -4,7 +4,7 @@ body {
     margin: 8px;
 }
 
-container {
+.container {
     display: flex;
     width: 80%;
     margin: 0 auto;
@@ -34,17 +34,18 @@ profile-photo {
     border-radius: 8px;
 }
 
-name {
+
+name{
     margin-top: 20px;
     font-size: 24px;
     font-weight: bold;
 }
 
-basic-info, .skills {
+basic-info, skills {
     margin: 10px 0;
 }
 
-basic-info i, .skills i {
+basic-info i, skills i {
     margin-right: 8px;
 }
 
