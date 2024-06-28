@@ -30,12 +30,12 @@ body {
 }
 
 .profile-photo {
-    width: 50%;
+    width: 100%;
     border-radius: 8px;
 }
 
 
-.name{
+.avatar{
     margin-top: 20px;
     font-size: 24px;
     font-weight: bold;
